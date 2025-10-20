@@ -136,7 +136,6 @@ footer {
   }
 }
 
-/* 1) HEADER LINK INTERACTIONS (hover = lift + underline) */
 header a {
   position: relative;
   display: inline-block;
@@ -166,7 +165,6 @@ header a:focus-visible::after {
   transform-origin: left center;
 }
 
-/* 2) HERO BUTTON INTERACTIONS (hover = press + sheen animation) */
 section.hero > button {
   position: relative;
   overflow: hidden;
@@ -183,7 +181,6 @@ section.hero > button:active {
   transform: translateY(2px) scale(0.97);
 }
 
-/* sheen animation */
 section.hero > button::before {
   content: "";
   position: absolute;
@@ -206,7 +203,6 @@ section.hero > button:focus-visible::before {
   100% { transform: translateX(260%) rotate(25deg); opacity: 0; }
 }
 
-/* 3) ARTICLE LINK INTERACTIONS (hover = underline grow + arrow) */
 main a {
   position: relative;
   text-decoration: none;
